@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48.956589mm"
+   height="57.116089mm"
+   viewBox="0 0 48.956589 57.116089"
+   version="1.1"
+   id="svg1693"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1695"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs1690" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-70.883409,-97.824918)">
+    <path
+       d="M 111.64338,130.01353 H 99.436002 c -2.247512,0 -4.069009,-1.82189 -4.069009,-4.06912 v 0 c 0,-2.24737 1.821497,-4.06919 4.069009,-4.06919 h 12.207378 z m -0.3955,-16.27639 H 99.436002 c -6.741901,0 -12.207522,5.46541 -12.207522,12.20727 v 0 c 0,6.7419 5.465621,12.20731 12.207522,12.20731 h 20.345578 v -15.88089 c 0,-4.71322 -3.82048,-8.53369 -8.5337,-8.53369"
+       style="fill:#99df0c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+       id="path766" />
+    <path
+       d="m 99.441505,105.98431 h 12.239205 c 4.50638,0 8.15929,-3.65297 8.15929,-8.159392 H 99.441505 c -15.7722,0 -28.558101,12.785902 -28.558101,28.558102 v 0 c 0,15.77209 12.785901,28.55799 28.558101,28.55799 h 12.239205 c 4.50638,0 8.15929,-3.65319 8.15929,-8.1595 v -6.08238 h -8.1383 c 0,0 0,0 -0.021,6.08238 H 99.441505 c -11.265817,0 -20.398598,-9.13278 -20.398598,-20.39849 v 0 c 0,-11.26568 9.132781,-20.39871 20.398598,-20.39871"
+       style="fill:#99df0c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+       id="path768" />
+  </g>
+</svg>
