@@ -35,11 +35,7 @@ const GlobalContext = createContext({} as iGlobalContext);
 function GlobalWrapper({ children }: iGlobalContextProps) {
     const [theme, setTheme] = useState("light");
     const [loading, setLoading] = useState(false);
-    const [location, setLocation] = useState<iLocation>({
-        id: "",
-        name: "",
-        expiredAt: "",
-    });
+    const [location, setLocation] = useState<iLocation>();
     const [modal, setModal] = useState<iModal>({ isView: false });
 
     const toggleTheme = () => {
