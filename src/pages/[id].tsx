@@ -8,6 +8,7 @@ import ProtectPage from "../components/Pages/Pascoa/Protect";
 import Modal from "../components/Modal";
 import Loading from "../components/Loading";
 import { iLocation } from "../interfaces";
+import SuccessPage from "../components/Pages/Pascoa/Success";
 
 interface iPascoaProps {
     location: iLocation;
@@ -20,8 +21,9 @@ export default function Pascoa({ location }: iPascoaProps) {
         <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
             <GlobalStyle />
             <ProtectPage id={location?.id} />
-            <Modal isDelete />
+            <Modal />
             <Loading />
+            <SuccessPage />
         </ThemeProvider>
     );
 }

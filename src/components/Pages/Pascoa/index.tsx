@@ -15,7 +15,7 @@ import Header from "../../Header";
 import Input from "../../Input";
 
 const PascoaPage = () => {
-    const { setLoading, location, setModal } = useGlobalContext();
+    const { setLoading, location, setModal, setIsSuccess } = useGlobalContext();
     const router = useRouter();
     const date = moment.utc();
     const expired = moment.utc(location.expiredAt);
@@ -93,6 +93,7 @@ const PascoaPage = () => {
                                         data.whatsApp
                                     )}!`;
                                     setLoading(false);
+                                    setIsSuccess(true);
                                     router.replace(
                                         `https://api.whatsapp.com/send/?phone=5588996931410&text=${message}`
                                     );

@@ -1,10 +1,6 @@
 import styled, { css } from "styled-components";
 
-interface iStyledModalProps {
-    isDelete?: boolean;
-}
-
-const StyledModal = styled.div<iStyledModalProps>`
+const StyledModal = styled.div`
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -14,24 +10,16 @@ const StyledModal = styled.div<iStyledModalProps>`
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.4);
-
     & > div {
         display: flex;
         height: fit-content;
         flex-direction: column;
         align-items: center;
         width: 80%;
-        max-width: 780px;
+        max-width: 400px;
         background-color: var(--Color-background);
         padding: 20px;
         gap: 10px;
-        ${({ isDelete }) => {
-            if (isDelete) {
-                return css`
-                    max-width: 400px;
-                `;
-            }
-        }}
         & > h3 {
             display: inline-flex;
             align-items: center;

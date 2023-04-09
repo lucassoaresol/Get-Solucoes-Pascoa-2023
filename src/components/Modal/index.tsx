@@ -4,17 +4,13 @@ import { FaSadCry } from "react-icons/fa";
 import { useGlobalContext } from "../../contexts/GlobalContext";
 import { useRouter } from "next/router";
 
-interface iModalProps {
-    isDelete?: boolean;
-}
-
-const Modal = ({ isDelete }: iModalProps) => {
+const Modal = () => {
     const { modal, setModal } = useGlobalContext();
     const router = useRouter();
     return (
         <>
             {modal.isView && (
-                <StyledModal isDelete={isDelete}>
+                <StyledModal>
                     <div>
                         <StyledTitle style={{ marginBottom: "20px" }}>
                             <h2>{modal.name}</h2>
