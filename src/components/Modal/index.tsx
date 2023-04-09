@@ -5,7 +5,7 @@ import { useGlobalContext } from "../../contexts/GlobalContext";
 import { useRouter } from "next/router";
 
 const Modal = () => {
-    const { modal, setModal } = useGlobalContext();
+    const { modal, setModal, setIsSuccess } = useGlobalContext();
     const router = useRouter();
     return (
         <>
@@ -17,6 +17,7 @@ const Modal = () => {
                             <button
                                 onClick={() => {
                                     setModal({ isView: false });
+                                    setIsSuccess(true);
                                     router.replace(
                                         "https://www.instagram.com/getsolucoes/"
                                     );
@@ -31,6 +32,7 @@ const Modal = () => {
                         <button
                             onClick={() => {
                                 setModal({ isView: false });
+                                setIsSuccess(true);
                                 router.replace(
                                     "https://www.instagram.com/getsolucoes/"
                                 );
